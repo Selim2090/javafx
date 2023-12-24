@@ -7,130 +7,82 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="767.0" prefWidth="759.0" style="-fx-background-color: #91370D;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetguichet.TransactionController">
+<AnchorPane prefHeight="767.0" prefWidth="759.0" style="-fx-background-color: #2E3B4E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetguichet.TransactionController">
    <children>
-      <AnchorPane layoutX="14.0" layoutY="30.0" prefHeight="627.0" prefWidth="339.0" style="-fx-background-color: white;">
+      <AnchorPane layoutX="14.0" layoutY="30.0" prefHeight="627.0" prefWidth="339.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 10;">
          <children>
-            <TextField fx:id="textField" layoutX="6.0" layoutY="14.0" prefHeight="175.0" prefWidth="327.0" />
-            <Button layoutX="25.0" layoutY="205.0" mnemonicParsing="false" onAction="#button1Clicked" prefHeight="83.0" prefWidth="81.0" text="1">
+            <TextField fx:id="textField" layoutX="6.0" layoutY="14.0" prefHeight="175.0" prefWidth="327.0" style="-fx-background-color: #E0E0E0; -fx-background-radius: 5;" />
+            <Button layoutX="25.0" layoutY="205.0" mnemonicParsing="false" onAction="#button1Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="1"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="129.0" layoutY="205.0" mnemonicParsing="false" onAction="#button2Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="2"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="232.0" layoutY="205.0" mnemonicParsing="false" onAction="#button3Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="3"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="25.0" layoutY="308.0" mnemonicParsing="false" onAction="#button4Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="4"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="129.0" layoutY="308.0" mnemonicParsing="false" onAction="#button5Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="5"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="232.0" layoutY="308.0" mnemonicParsing="false" onAction="#button6Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="6"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="25.0" layoutY="414.0" mnemonicParsing="false" onAction="#button7Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="7"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="129.0" layoutY="414.0" mnemonicParsing="false" onAction="#button8Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="8"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="232.0" layoutY="414.0" mnemonicParsing="false" onAction="#button9Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="9"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="129.0" layoutY="522.0" mnemonicParsing="false" onAction="#button0Clicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="0"><font><Font size="18.0" /></font></Button>
+            <Button layoutX="232.0" layoutY="522.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="."><font><Font size="18.0" /></font></Button>
+            <Button layoutX="25.0" layoutY="522.0" mnemonicParsing="false" onAction="#clearTextField" prefHeight="83.0" prefWidth="81.0" style="-fx-background-color: #B0BEC5; -fx-text-fill: #263238;" text="Effacer">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button layoutX="129.0" layoutY="205.0" mnemonicParsing="false" onAction="#button2Clicked" prefHeight="83.0" prefWidth="81.0" text="2">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="232.0" layoutY="205.0" mnemonicParsing="false" onAction="#button3Clicked" prefHeight="83.0" prefWidth="81.0" text="3">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="23.0" layoutY="308.0" mnemonicParsing="false" onAction="#button4Clicked" prefHeight="83.0" prefWidth="81.0" text="4">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="129.0" layoutY="308.0" mnemonicParsing="false" onAction="#button5Clicked" prefHeight="83.0" prefWidth="81.0" text="5">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="232.0" layoutY="308.0" mnemonicParsing="false" onAction="#button6Clicked" prefHeight="83.0" prefWidth="81.0" text="6">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="232.0" layoutY="414.0" mnemonicParsing="false" onAction="#button9Clicked" prefHeight="83.0" prefWidth="81.0" text="9">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="129.0" layoutY="414.0" mnemonicParsing="false" onAction="#button8Clicked" prefHeight="83.0" prefWidth="81.0" text="8">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="25.0" layoutY="414.0" mnemonicParsing="false" onAction="#button7Clicked" prefHeight="83.0" prefWidth="81.0" text="7">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="129.0" layoutY="522.0" mnemonicParsing="false" onAction="#button0Clicked" prefHeight="83.0" prefWidth="81.0" text="0">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="232.0" layoutY="522.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="83.0" prefWidth="81.0" text=".">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-         </children></AnchorPane>
-      <AnchorPane layoutX="364.0" layoutY="33.0" prefHeight="112.0" prefWidth="373.0" style="-fx-background-color: white;">
+
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="364.0" layoutY="33.0" prefHeight="112.0" prefWidth="373.0" style="-fx-background-color: #CFD8DC; -fx-background-radius: 10;">
          <children>
-            <Label layoutX="14.0" layoutY="14.0" text="Cheque : " />
-            <Label fx:id="cheque" layoutX="70.0" layoutY="14.0" text="0.0" />
-            <Label layoutX="14.0" layoutY="74.0" text="Credit :" />
-            <Label fx:id="credit" layoutX="70.0" layoutY="74.0" text="0.0" />
-            <Label layoutX="264.0" layoutY="14.0" text="Epargne :" />
-            <Label layoutX="237.0" layoutY="74.0" text="Hypothecaire :" />
-            <Label fx:id="epargne" layoutX="324.0" layoutY="14.0" text="0.0" />
-            <Label fx:id="hypo" layoutX="325.0" layoutY="74.0" text="0.0" />
-         </children></AnchorPane>
-      <AnchorPane layoutX="364.0" layoutY="156.0" prefHeight="137.0" prefWidth="373.0" style="-fx-background-color: white;">
+            <Label layoutX="14.0" layoutY="14.0" style="-fx-text-fill: #1C2833;" text="Cheque : " />
+            <Label fx:id="cheque" layoutX="70.0" layoutY="14.0" style="-fx-text-fill: #1C2833;" text="0.0" />
+            <Label layoutX="14.0" layoutY="74.0" style="-fx-text-fill: #1C2833;" text="Credit :" />
+            <Label fx:id="credit" layoutX="70.0" layoutY="74.0" style="-fx-text-fill: #1C2833;" text="0.0" />
+            <Label layoutX="264.0" layoutY="14.0" style="-fx-text-fill: #1C2833;" text="Epargne :" />
+            <Label layoutX="237.0" layoutY="74.0" style="-fx-text-fill: #1C2833;" text="Hypothecaire :" />
+            <Label fx:id="epargne" layoutX="324.0" layoutY="14.0" style="-fx-text-fill: #1C2833;" text="0.0" />
+            <Label fx:id="hypo" layoutX="325.0" layoutY="74.0" style="-fx-text-fill: #1C2833;" text="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="364.0" layoutY="156.0" prefHeight="137.0" prefWidth="373.0" style="-fx-background-color: #CFD8DC; -fx-background-radius: 10;">
          <children>
-            <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="81.0" text="Retrait :">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Label>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="81.0" style="-fx-text-fill: #1C2833;" text="Retrait :" />
             <RadioButton fx:id="RCompteCheque" layoutX="119.0" layoutY="41.0" mnemonicParsing="false" text="Compte Cheque" />
             <RadioButton fx:id="RCompteEpargne" layoutX="118.0" layoutY="75.0" mnemonicParsing="false" text="Compte Epargne" />
-         </children></AnchorPane>
-      <AnchorPane layoutX="364.0" layoutY="305.0" prefHeight="137.0" prefWidth="373.0" style="-fx-background-color: white;">
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="364.0" layoutY="305.0" prefHeight="137.0" prefWidth="373.0" style="-fx-background-color: #CFD8DC; -fx-background-radius: 10;">
          <children>
-            <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="81.0" text="Depot :">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Label>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="81.0" style="-fx-text-fill: #1C2833;" text="Depot :" />
             <RadioButton fx:id="DCompteCheque" layoutX="113.0" layoutY="41.0" mnemonicParsing="false" text="Compte Cheque" />
             <RadioButton fx:id="DCompteEpargne" layoutX="112.0" layoutY="69.0" mnemonicParsing="false" text="Compte Epargne" />
             <RadioButton fx:id="DcompteHypo" layoutX="112.0" layoutY="97.0" mnemonicParsing="false" text="Compte Hypothecaire" />
-         </children></AnchorPane>
-      <AnchorPane layoutX="364.0" layoutY="451.0" prefHeight="137.0" prefWidth="373.0" style="-fx-background-color: white;">
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="364.0" layoutY="451.0" prefHeight="137.0" prefWidth="373.0" style="-fx-background-color: #CFD8DC; -fx-background-radius: 10;">
          <children>
-            <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="81.0" text="Transfer :">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Label>
-            <Label layoutX="14.0" layoutY="41.0" text="De  :" />
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="81.0" style="-fx-text-fill: #1C2833;" text="Transfer :" />
+            <Label layoutX="14.0" layoutY="41.0" style="-fx-text-fill: #1C2833;" text="De :" />
             <RadioButton fx:id="TCompteCheque" layoutX="34.0" layoutY="68.0" mnemonicParsing="false" text="Compte Cheque" />
             <RadioButton fx:id="TCompteHypo" layoutX="204.0" layoutY="97.0" mnemonicParsing="false" text="Compte hypothecaire" />
-            <Label layoutX="163.0" layoutY="41.0" text="À :" />
+            <Label layoutX="163.0" layoutY="41.0" style="-fx-text-fill: #1C2833;" text="À :" />
             <RadioButton fx:id="TCredit" layoutX="205.0" layoutY="41.0" mnemonicParsing="false" text="Marge de credit" />
             <RadioButton fx:id="TCompteEpargne" layoutX="204.0" layoutY="68.0" mnemonicParsing="false" text="Compte Epargne" />
-         </children></AnchorPane>
-      <AnchorPane layoutX="364.0" layoutY="601.0" prefHeight="118.0" prefWidth="373.0" style="-fx-background-color: white;">
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="364.0" layoutY="601.0" prefHeight="118.0" prefWidth="373.0" style="-fx-background-color: #CFD8DC; -fx-background-radius: 10;">
          <children>
-            <Label layoutX="14.0" layoutY="14.0" text="Paiement Facture :">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Label>
+            <Label layoutX="14.0" layoutY="14.0" style="-fx-text-fill: #1C2833;" text="Paiement Facture :" />
             <RadioButton fx:id="PCompteCheque" layoutX="33.0" layoutY="78.0" mnemonicParsing="false" text="Compte Cheque" />
-            <Label layoutX="14.0" layoutY="41.0" text="De :" />
+            <Label layoutX="14.0" layoutY="41.0" style="-fx-text-fill: #1C2833;" text="De :" />
             <TextField fx:id="PcompteFacture" layoutX="199.0" layoutY="74.0" />
-            <Label layoutX="199.0" layoutY="49.0" text="Numero de compte facture" />
-         </children></AnchorPane>
-      <Button layoutX="16.0" layoutY="671.0" mnemonicParsing="false" onAction="#alert1" prefHeight="69.0" prefWidth="339.0" text="effectuer">
+            <Label layoutX="199.0" layoutY="49.0" style="-fx-text-fill: #1C2833;" text="Numero de compte facture" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="16.0" layoutY="671.0" mnemonicParsing="false" onAction="#alert1" prefHeight="69.0" prefWidth="339.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" text="effectuer">
          <font>
             <Font size="24.0" />
          </font>
       </Button>
-      <Button fx:id="return_btn" layoutX="646.0" layoutY="728.0" mnemonicParsing="false" onAction="#SwitchOnClick" prefHeight="25.0" prefWidth="91.0" text="Retour" />
+      <Button fx:id="return_btn" layoutX="646.0" layoutY="728.0" mnemonicParsing="false" onAction="#SwitchOnClick" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #FF5722; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" text="Retour" />
    </children>
 </AnchorPane>

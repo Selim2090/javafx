@@ -4,33 +4,33 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #91370D;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetguichet.AccueilController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2E3B4E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetguichet.AccueilController">
    <children>
-      <AnchorPane layoutX="39.0" layoutY="25.0" prefHeight="76.0" prefWidth="220.0" style="-fx-background-color: white;">
+      <AnchorPane layoutX="39.0" layoutY="25.0" prefHeight="76.0" prefWidth="220.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #1C2833;">
          <children>
-            <Label layoutX="24.0" layoutY="30.0" text="Compte Cheque :" />
-            <Label fx:id="cheque" layoutX="154.0" layoutY="30.0" text="0.0" />
+            <Label layoutX="24.0" layoutY="30.0" text="Compte Cheque :" style="-fx-text-fill: #1C2833; -fx-font-size: 14;" />
+            <Label fx:id="cheque" layoutX="154.0" layoutY="30.0" text="0.0" style="-fx-text-fill: #1C2833; -fx-font-size: 14;" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="39.0" layoutY="124.0" prefHeight="76.0" prefWidth="220.0" style="-fx-background-color: white;">
+      <AnchorPane layoutX="39.0" layoutY="124.0" prefHeight="76.0" prefWidth="220.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #1C2833;">
          <children>
-            <Label layoutX="22.0" layoutY="29.0" text="Compte Epargne :" />
-            <Label fx:id="epargne" layoutX="155.0" layoutY="29.0" text="0.0" />
+            <Label layoutX="22.0" layoutY="29.0" text="Compte Epargne :" style="-fx-text-fill: #1C2833; -fx-font-size: 14;" />
+            <Label fx:id="epargne" layoutX="155.0" layoutY="29.0" text="0.0" style="-fx-text-fill: #1C2833; -fx-font-size: 14;" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="39.0" layoutY="218.0" prefHeight="76.0" prefWidth="220.0" style="-fx-background-color: white;">
+      <AnchorPane layoutX="39.0" layoutY="218.0" prefHeight="76.0" prefWidth="220.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #1C2833;">
          <children>
-            <Label layoutX="22.0" layoutY="29.0" text="Marge De Credit :" />
-            <Label fx:id="credit" layoutX="156.0" layoutY="29.0" text="0.0" />
+            <Label layoutX="22.0" layoutY="29.0" text="Marge De Credit :" style="-fx-text-fill: #1C2833; -fx-font-size: 14;" />
+            <Label fx:id="credit" layoutX="156.0" layoutY="29.0" text="0.0" style="-fx-text-fill: #1C2833; -fx-font-size: 14;" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="39.0" layoutY="310.0" prefHeight="76.0" prefWidth="220.0" style="-fx-background-color: white;">
+      <AnchorPane layoutX="39.0" layoutY="310.0" prefHeight="76.0" prefWidth="220.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: #1C2833;">
          <children>
-            <Label layoutX="22.0" layoutY="29.0" text="Compte hypothecaire :" />
-            <Label fx:id="hypo" layoutX="154.0" layoutY="29.0" text="0.0" />
+            <Label layoutX="22.0" layoutY="29.0" text="Compte hypothecaire :" style="-fx-text-fill: #1C2833; -fx-font-size: 12;" />
+            <Label fx:id="hypo" layoutX="154.0" layoutY="29.0" text="0.0" style="-fx-text-fill: #1C2833; -fx-font-size: 14;" />
          </children>
       </AnchorPane>
-      <Button fx:id="transaction_btn" layoutX="373.0" layoutY="177.0" mnemonicParsing="false" onAction="#SwitchOnClick2" prefHeight="46.0" prefWidth="114.0" text="Transaction" />
-      <Button fx:id="logout_btn" layoutX="495.0" layoutY="348.0" mnemonicParsing="false" onAction="#SwitchBack" text="Deconnexion" />
+      <Button fx:id="transaction_btn" layoutX="373.0" layoutY="177.0" mnemonicParsing="false" onAction="#SwitchOnClick2" prefHeight="46.0" prefWidth="114.0" text="Transaction" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" />
+      <Button fx:id="logout_btn" layoutX="495.0" layoutY="348.0" mnemonicParsing="false" onAction="#SwitchBack" text="Deconnexion" style="-fx-background-color: #D32F2F; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" />
    </children>
 </AnchorPane>

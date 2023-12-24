@@ -7,21 +7,25 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #91370D;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetguichet.HelloController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2E3B4E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetguichet.HelloController">
    <children>
-      <AnchorPane layoutX="133.0" layoutY="134.0" prefHeight="131.0" prefWidth="333.0" style="-fx-background-color: white;">
+      <AnchorPane layoutX="133.0" layoutY="100.0" prefHeight="200.0" prefWidth="333.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #1C2833;">
          <children>
-            <Label layoutX="55.0" layoutY="36.0" prefHeight="17.0" prefWidth="88.0" text="Code Client : " />
-            <Label layoutX="99.0" layoutY="69.0" prefHeight="17.0" prefWidth="47.0" text="NIP :" />
-            <PasswordField fx:id="nipfield" layoutX="133.0" layoutY="65.0" />
-            <TextField fx:id="codefield" layoutX="133.0" layoutY="32.0" />
-            <Label fx:id="wronglogin" layoutX="151.0" layoutY="6.0" prefHeight="17.0" prefWidth="111.0">
+            <Label layoutX="25.0" layoutY="36.0" prefHeight="17.0" prefWidth="100.0" text="Code Client : " style="-fx-font-size: 14; -fx-text-fill: #1C2833;" />
+            <Label layoutX="85.0" layoutY="80.0" prefHeight="17.0" prefWidth="40.0" text="NIP :" style="-fx-font-size: 14; -fx-text-fill: #1C2833;" />
+            <PasswordField fx:id="nipfield" layoutX="133.0" layoutY="76.0" prefWidth="180.0" style="-fx-background-radius: 5;" />
+            <TextField fx:id="codefield" layoutX="133.0" layoutY="32.0" prefWidth="180.0" style="-fx-background-radius: 5;" />
+            <Label fx:id="wronglogin" layoutX="85.0" layoutY="6.0" prefHeight="17.0" prefWidth="163.0" style="-fx-text-fill: #D32F2F; -fx-font-size: 12;">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <Button fx:id="login_button" layoutX="257.0" layoutY="284.0" mnemonicParsing="false" onAction="#onSwitchClick" text="Se connecter" />
+      <Button fx:id="login_button" layoutX="253.0" layoutY="310.0" mnemonicParsing="false" onAction="#onSwitchClick" text="Se connecter" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
